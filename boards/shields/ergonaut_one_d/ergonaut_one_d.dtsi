@@ -1,0 +1,16 @@
+#include <dt-bindings/zmk/matrix_transform.h>
+
+/ {
+    kscan_dongle: kscan0 {
+        compatible = "zmk,kscan-gpio-direct";
+        wakeup-source;
+        input-gpios = &button0;
+    };
+
+    default_transform: keymap_transform0 {
+        compatible = "zmk,matrix-transform";
+        columns = <1>;
+        rows = <1>;
+        map = <RC(0,0)>;
+    };
+};

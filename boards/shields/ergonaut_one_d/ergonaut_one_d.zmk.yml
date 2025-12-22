@@ -1,0 +1,8 @@
+file_format: "1"
+id: ergonaut_one_d
+name: Ergonaut One D
+type: shield
+url: https://github.com/loredan/ergonaut-one-d-module/
+requires: [nrf52840]
+features:
+  - keys
