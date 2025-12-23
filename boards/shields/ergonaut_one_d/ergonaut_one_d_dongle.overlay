@@ -1,5 +1,5 @@
 / {
     chosen {
         zmk,physical-layout = &ergonaut_one_d_physical_layout;
-    }
+    };
 };
