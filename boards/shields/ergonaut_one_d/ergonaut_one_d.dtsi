@@ -5,7 +5,7 @@
     kscan_dongle: kscan0 {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
-        input-gpios = <&button0>;
+        input-gpios = <&gpio1 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
     };
 
     default_transform: keymap_transform0 {
