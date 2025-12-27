@@ -1,4 +1,4 @@
-#include "ergonaout_one_d-layouts.dtsi"
+#include "ergonaut_one_d-layouts.dtsi"
 
 / {
     chosen {

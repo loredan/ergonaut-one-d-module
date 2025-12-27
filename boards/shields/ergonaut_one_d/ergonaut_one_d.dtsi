@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "ergonaout_one_d-layouts.dtsi"
+#include "ergonaut_one_d-layouts.dtsi"
 
 / {
     kscan_dongle: kscan0 {
