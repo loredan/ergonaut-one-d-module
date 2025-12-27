@@ -4,7 +4,5 @@
     ergonaut_one_d_physical_layout: physical_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "Ergonaut One D";
-        transform = <&default_transform>;
-        kscan = <&kscan_dongle>;
     };
 };
