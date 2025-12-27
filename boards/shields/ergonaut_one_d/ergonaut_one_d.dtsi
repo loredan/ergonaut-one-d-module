@@ -15,3 +15,8 @@
         map = <RC(0,0)>;
     };
 };
+
+&ergonaut_one_d_physical_layout {
+    transform = <&default_transform>;
+    kscan = <&kscan_dongle>;
+};
