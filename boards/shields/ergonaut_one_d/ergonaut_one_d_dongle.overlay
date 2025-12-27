@@ -3,21 +3,10 @@
 / {
     chosen {
         zmk,physical-layout = &ergonaut_one_d_physical_layout;
-        zmk,backlight = &pwmleds;
+        zmk,usb = &usbd;
     };
 };
 
-&pinctrl {
-    // Other pinctrl definitions for other hardware
-    pwm0_default: pwm0_default {
-        group1 {
-            psels = <NRF_PSEL(PWM_OUT0, 0, 6)>;
-        };
-    };
-    pwm0_sleep: pwm0_sleep {
-        group1 {
-            psels = <NRF_PSEL(PWM_OUT0, 0, 6)>;
-            low-power-enable;
-        };
-    };
+&usbd {
+    status = "okay";
 };

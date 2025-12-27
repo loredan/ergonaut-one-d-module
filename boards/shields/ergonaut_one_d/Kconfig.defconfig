@@ -3,6 +3,9 @@ if SHIELD_ERGONAUT_ONE_D_DONGLE
 config ZMK_KEYBOARD_NAME
     default "Ergonaut One D"
 
+config ZMK_USB
+    default y
+
 endif
 
 if ZMK_BACKLIGHT
