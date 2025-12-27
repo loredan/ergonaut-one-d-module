@@ -1,3 +1,5 @@
+#include "ergonaout_one_d-layouts.dtsi"
+
 / {
     chosen {
         zmk,physical-layout = &ergonaut_one_d_physical_layout;
