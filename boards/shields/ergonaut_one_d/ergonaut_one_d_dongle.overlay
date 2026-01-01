@@ -6,13 +6,6 @@
         zmk,usb = &usbd;
         zmk,backlight = &backlight;
     };
-
-    backlight: pwmleds {
-        compatible = "zmk,pwm-leds";
-        pwm_led_0 {
-            pwms = <&pwm0 0 PWM_MSEC(10) PWM_POLARITY_NORMAL>;
-        };
-    };
 };
 
 &usbd {
