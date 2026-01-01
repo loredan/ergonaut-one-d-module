@@ -14,21 +14,9 @@
         rows = <1>;
         map = <RC(0,0)>;
     };
-
-    behaviors {
-        heartbeat: heartbeat {
-            compatible = "zmk,behavior-heartbeat";
-        };
-    };
 };
 
 &ergonaut_one_d_physical_layout {
     transform = <&default_transform>;
     kscan = <&kscan_dongle>;
-};
-
-&led0_green {
-    label = "Heartbeat LED";
-    chain-delay-ms = <50>;
-    behavior = <&heartbeat>;
 };
