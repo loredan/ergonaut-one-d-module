@@ -6,4 +6,3 @@ url: https://github.com/loredan/ergonaut-one-d-module/
 requires: [nrf52840]
 features:
   - keys
-  - backlight

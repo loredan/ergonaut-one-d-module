@@ -6,7 +6,4 @@ config ZMK_KEYBOARD_NAME
 config ZMK_USB
     default y
 
-config ZMK_BACKLIGHT
-    default y
-
 endif
