@@ -19,6 +19,13 @@
 #
 
 include: 
-  - board: nrf52840dongle_nrf52840
+  - board: xiao_ble//zmk
     shield: ergonaut_one_d_dongle
-    snippet: zmk-usb-logging
+
+include: 
+  - board: xiao_ble//zmk
+    shield: ergonaut_one_d_left
+
+include: 
+  - board: xiao_ble//zmk
+    shield: ergonaut_one_d_right

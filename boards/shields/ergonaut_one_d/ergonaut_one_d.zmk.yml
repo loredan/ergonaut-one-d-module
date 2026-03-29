@@ -3,6 +3,10 @@ id: ergonaut_one_d
 name: Ergonaut One D
 type: shield
 url: https://github.com/loredan/ergonaut-one-d-module/
-requires: [nrf52840]
+requires: [seeeduino_xiao_ble]
 features:
   - keys
+siblings:
+  - ergonaut_one_d_dongle
+  - ergonaut_one_d_left
+  - ergonaut_one_d_right

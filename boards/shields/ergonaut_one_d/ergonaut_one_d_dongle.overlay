@@ -2,23 +2,5 @@
 
 / {
     chosen {
-        zmk,physical-layout = &ergonaut_one_d_physical_layout;
-        zmk,usb = &usbd;
     };
-
-    leds {
-        compatible = "gpio-leds";
-        sys_led: sys_led_0 {
-            gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>; // Or your chosen LED pin
-            label = "System Status LED";
-        };
-    };
-};
-
-// Directly control the LED based on system state
-&sys_led {
-    // Setting this property will make the LED turn on when the board is powered
-    // It acts as a simple power indicator.
-    gpios = <&gpio0 6 GPIO_ACTIVE_HIGH>;
-    label = "Power LED";
 };
