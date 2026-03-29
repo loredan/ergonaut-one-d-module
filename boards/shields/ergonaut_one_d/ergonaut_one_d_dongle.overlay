@@ -1,6 +1,1 @@
 #include "ergonaut_one_d.dtsi"
-
-/ {
-    chosen {
-    };
-};
