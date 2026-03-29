@@ -14,7 +14,7 @@
 
 / {
     chosen {
-        zmk,physical_layout = &ergonaut_one_layout;
+        zmk,physical_layout = &ergonaut_one_d_layout;
     };
 
     default_transform: keymap_transform_0 {
