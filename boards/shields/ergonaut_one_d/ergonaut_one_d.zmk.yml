@@ -6,6 +6,7 @@ url: https://github.com/loredan/ergonaut-one-d-module/
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+  - dongle
 siblings:
   - ergonaut_one_d_dongle
   - ergonaut_one_d_left
