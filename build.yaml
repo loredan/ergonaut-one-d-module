@@ -21,9 +21,13 @@
 include: 
   - board: xiao_ble//zmk
     shield: ergonaut_one_d_dongle
+    artifact-name: ergonaut_one_d_dongle
   - board: xiao_ble//zmk
     shield: ergonaut_one_d_left
+    artifact-name: ergonaut_one_d_left
   - board: xiao_ble//zmk
     shield: ergonaut_one_d_right
+    artifact-name: ergonaut_one_d_right
   - board: xiao_ble//zmk
     shield: settings_reset
+    artifact-name: settings_reset
